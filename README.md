@@ -2,7 +2,7 @@
 
 Jasig CAS client for Perl applications.
 
-Author: Drew Mazurek
+Author: Drew Mazurek `dmazurek@unicon.net`
 
 ## Usage
 
