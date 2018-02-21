@@ -614,7 +614,7 @@ sub get_https2{
 	my $request;
 	if (defined $body) {
 	    my $length = length $body;
- 	    $request = "POST $path HTTP/1.0\r\nHost: $host\r\nContent-Length: $length\r\n\r\n$body";
+	    $request = "POST $path HTTP/1.0\r\nHost: $host\r\nContent-Length: $length\r\nContent-Type: text/xml\r\n\r\n$body";
 	} else {
  	    $request = "GET $path HTTP/1.0\r\nHost: $host\r\n\r\n";
 	}
